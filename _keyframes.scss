@@ -1,0 +1,64 @@
+
+ul.transition {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: -3rem;
+    margin: 0;
+    pointer-events: none;
+  }
+  
+  ul.transition li {
+    transform: scaleY(0);
+    background-image: linear-gradient(
+      to right bottom,
+       rgba(rgb(0, 0, 0), 1),     
+        rgba(rgb(0, 0, 0), 1));
+    width: 20%;
+  }
+  
+  
+
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+    
+  }
+  
+
+
+@keyframes jiggle {
+    25% {
+      transform: scale(.99);
+      
+    }
+    50% {
+      transform: scale(1);
+  
+    }
+    75% {
+      transform: scale(1.01);
+  
+    }
+    100% {
+      transform: scale(.99);
+  
+    }
+  }
+  
+  
+  
+  .color-change-4x{-webkit-animation:color-change-4x 6s linear infinite alternate both;animation:color-change-4x 6s linear infinite alternate both}
+  @-webkit-keyframes color-change-4x{0%{border-color:#19dcea}33.3333%{border-color:#b22cff}66.666%{border-color:#ea2222}100%{border-color:#f5be10}}@keyframes color-change-4x{0%{border-color:#19dcea}33.3333%{border-color:#b22cff}66.666%{border-color:#ea2222}100%{border-color:#f5be10}}

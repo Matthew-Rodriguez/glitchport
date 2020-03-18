@@ -1,0 +1,119 @@
+.containerabout {
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: -10rem;
+    left: 30%;
+    height: 75vh;
+    width: 50%;
+    border-bottom: none;
+    border-top: none;
+    border-left: 10px solid black;
+      font-style: "Montserrat", serif;
+    background-image: linear-gradient(
+      to right bottom,
+       rgba(rgb(0, 0, 0), .9),     
+        rgba(rgb(0, 0, 0), .9)),
+        url('img/code.jpg');
+        border-radius: 2rem;
+        box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+
+        @media screen and(max-device-width: 400px) {
+   top: -20rem;
+            width: 90vh;
+
+          }
+
+        &_skills {
+          position: absolute;
+          transform: translate(-50%, 50%);
+          top: -15rem;
+          left: 70rem;
+          height: 75vh;
+          width: 40%;
+          border-bottom: none;
+          border-top: none;
+          border-right: 10px solid black;
+            font-style: "Montserrat", serif;
+          background-image: linear-gradient(
+            to right bottom,
+             rgba(rgb(0, 0, 0), .9),     
+              rgba(rgb(0, 0, 0), .9)),
+              url('img/code.jpg');
+              border-radius: 2rem;
+              box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+        }
+
+  }
+// seperate files // index css about css projects css 
+  .about {
+    position: relative;
+    left: 1.5rem !important;
+    top: -6rem;
+
+    &_skills {
+      position: relative;
+      left: 14.5rem !important;
+      top: -6rem;
+    }
+  }
+
+  .aboutdesc {
+    font-size: 30px;
+  }
+
+  
+  .aboutbutton {
+    position: relative;
+    top:18rem;
+    left:-3rem;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+
+.icons {
+    height: 3rem ;
+    width: 3rem ;
+    color: white;
+  position: relative;
+  left: -10rem;
+  top:-29rem;
+  animation: spin 3s infinite both;
+  
+  &_node {
+    left: -10rem;
+    width: 7rem;
+    height: 4rem;
+  top: -25rem;
+    position: relative;
+   
+  }
+  &_sass {
+    left: 23rem;
+    width: 7rem;
+    height: 4rem;
+  top: -25rem;
+    position: relative;
+  }
+  }
+  
+  #bodynav {
+    background-image: linear-gradient(
+      to right bottom,
+       rgba(rgb(0, 0, 0), .9),     
+        rgba(rgb(0, 0, 0), .9)),
+        url('img/code.jpg') !important;
+      background-position: top;
+      background-size: cover;
+      background-color: black;
+  }
+
+
+  .abmarg {
+   position: absolute;
+   top: 7rem !important;
+   left: 34rem !important;
+   margin-right: 3rem;
+  }
