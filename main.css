@@ -334,7 +334,7 @@ body {
     font-size: 19px; }
 
 #bodyproj {
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/img/code.jpg") !important;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("img/code.jpg") !important;
   background-position: top;
   background-size: cover;
   background-color: black; }
@@ -357,7 +357,7 @@ body {
 
 .footer {
   width: 100%;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), black), url("/img/code.jpg") !important;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), black), url("img/code.jpg") !important;
   height: 15rem;
   margin-top: 3rem;
   border: 2px solid;
